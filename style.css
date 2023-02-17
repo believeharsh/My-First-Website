@@ -502,7 +502,9 @@
     padding: 3px;
     color: black
 }
-
+.fotter-items1 a:hover {
+    color: rgb(12, 12, 195);
+}
 
 .fotter-items2 {
     display: flex;
@@ -510,12 +512,17 @@
     margin: 40px 10px 10px 62px;
 }
 
+ 
+
 .fotter-items2 a {
     padding: 3px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 13px;
     color: black
 }
+.fotter-items2 a:hover {
+    color: rgb(12, 12, 195);
+ }
 
 .fotter-items3 {
     display: flex;
@@ -529,8 +536,11 @@
     font-size: 13px;
     color: black
 }
-.last-lines p {
+.fotter-items3 a:hover {
+    color: rgb(12, 12, 195);
+ }
+/* .last-lines p {
     text-align: center;
     color: aquamarine;
     margin: -123px 10px 10px 10px;
-}
+} */
