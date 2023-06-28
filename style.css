@@ -1,0 +1,546 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* navbar section */
+
+#navbar {
+
+    display: flex;
+    align-items: center;
+    top: 0px;
+    height: 67px;
+    position: sticky;
+    border-bottom: 1.5px solid black;
+}
+
+#navbar::before {
+    content: "";
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+
+/* navbar :> menu section  */
+#navbar ul {
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 25px;
+    padding: 15px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+#navbar ul li a:hover {
+    color: white;
+    background-color: rgb(8, 6, 6);
+
+}
+
+#items a {
+    padding: 4px;
+}
+
+/* navbar :> logo section */
+#logo img {
+    height: 60px;
+    width: 60px;
+    margin: 5px 10px 0px 80px;
+    border-radius: 50px;
+}
+
+#logo img:hover {
+    border: 1px rgb(87, 180, 243);
+    height: 61px;
+    width: 61px;
+    border-radius: 50px
+}
+
+
+/* main logo section  */
+
+#mainlogo a {
+    position: sticky;
+    float: right;
+    margin: -64px 70px 17px;
+    text-decoration: none;
+    font-size: 40px;
+    color: rgb(169, 185, 196);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#mainlogo a:hover {
+    color: rgb(95, 180, 219);
+    font-weight: 20px;
+
+
+}
+
+/* Home section  */
+/* This is the greeting section for the user 
+#greeting {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#greeting a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    
+    font-size: 30px;
+    color: rgb(44, 134, 243);
+}
+
+#first {
+    margin: 3px;
+    padding: 1px 5px 0px 2px;
+}
+
+#second {
+    margin: 3px;
+    padding: 1px 5px 0px 2px;
+}
+
+#third {
+    margin: 3px;
+    padding: 1px 5px 0px 2px;
+} */
+
+/* This is the animation section when user open our website this will animate for 30 sec and clear the aera 
+#first{
+    position: relative;
+    animation-name: greet1 ;
+    animation-duration: 20s;
+    animation-delay: 1s;
+
+}
+@keyframes greet1 {
+  from{
+
+  }
+
+}
+
+#second{
+    animation-name: greet2 ;
+    animation-duration: 20s;
+    animation-delay: 1s;
+    
+}
+@keyframes greet2{
+    from{
+      
+    }
+  
+  }
+#third{
+    animation-name: greet3 ;
+    animation-duration: 20s;
+    animation-delay: 1s;
+    
+}
+@keyframes greet3 {
+    from{
+      
+    }
+  
+  } */
+
+/* Home section */
+/* home sectin :> our services  */
+
+
+/* welcome-container */
+#welcome {
+    background-image: url(/Picture.CSS/greetingimage.png);
+    background-size: contain;
+    height: 300px;
+}
+
+
+#greet1 {
+    color: rgb(0, 0, 0);
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: block;
+    font-size: 28px;
+    text-decoration: none;
+    font-weight: bolder;
+    padding-top: 100px;
+}
+
+#greet2 {
+    color: rgb(0, 0, 0);
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#greet3 {
+    color: rgb(0, 0, 0);
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+
+
+}
+
+
+#services-container {
+    background-color: rgb(44, 240, 47);
+}
+
+#servise-heading {
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px 10px;
+
+}
+#harsh{
+    border-radius: 25px;
+}
+.box h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    padding-left: 139px;
+}
+
+.images-service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+
+.images-service img {
+    justify-content: center;
+    align-items: center;
+    height: 53px;
+    width: 65px;
+    margin: 4px 0px 4px 0px;
+}
+
+#services .box {
+    background-color: rgb(241, 255, 255);
+    border: 2px solid black;
+    margin: 20px;
+    /* justify-content: center;
+    align-items: center; */
+    border-radius: 10px;
+
+}
+
+#services p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px 5px 0px 5px;
+    font-size: 18px;
+}
+
+/* Our Project section  */
+
+#Project-heading {
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#project-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px 0px 0px 0px;
+}
+
+#project-services .project-box {
+
+    background-color: rgb(241, 255, 255);
+    border: 2px solid black;
+    margin: 20px;
+    /* justify-content: center;
+    align-items: center; */
+    border-radius: 10px;
+
+
+}
+
+.project-box h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+#project-box.website-project {
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.project-box p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px 5px 0px 5px;
+    font-size: 20px;
+}
+
+.project-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-img img {
+    height: 57px;
+    width: 90px;
+    margin-top: 11px;
+}
+
+/* clients section */
+
+
+
+#Clients-container {
+    background-image: url(/Picture.CSS/client2.png);
+    background-size: cover;
+    display: flex;
+    margin-top: 2px;
+
+}
+
+#Our-clients {
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#inside-clients-con {
+    display: flex;
+    margin: 10px 0px 0px -218px;
+}
+
+#first-clients-name {
+    margin: 10px 15px 10px 214px;
+}
+
+.first-names a {
+    color: #eff5fa;
+    font-family: monospace;
+    font-size: 30px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    font-weight: bold;
+}
+
+#first-clients-images {
+    margin: 27px -157px 0px 0px;
+}
+
+#second-clients-name {
+    margin: 10px 10px 10px -14px;
+}
+
+.first-image img {
+    height: 78px;
+    width: 75px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.second-names a {
+    color: #eff5fa;
+    font-family: monospace;
+    font-size: 30px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    font-weight: bold;
+}
+
+.second-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -79px 0px 0px 15px;
+
+}
+
+.second-images img {
+    height: 62px;
+    width: 62px;
+    border-radius: 20px;
+    margin: 4px 2px 4px 2px;
+}
+
+/* connect-us section */
+#connect-us-head {
+    text-align: center;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#Connect-Us-container {
+    display: flex;
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    margin: 0;
+    padding: 0;
+}
+
+.connect-via {
+    display: flex;
+    margin: 5px;
+    padding: 2px;
+    margin: 5px 5px 5px 60px;
+}
+
+.connect-via img {
+    height: 60px;
+    width: 50px;
+    border-radius: 25px;
+    padding: 4px;
+}
+.connect-via img:hover {
+    background-color: rgb(206, 145, 102);
+    animation-name: connect-via;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+#whatsapp {
+    height: 80px;
+    width: 60px;
+}
+
+#Connect-Us-container .gmail {
+    /* display: flex;
+    flex-direction: row-reverse; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    margin-left: 518px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.gmail img {
+    height: 25px;
+    display: inline-block;
+    margin: 10px 0px -12px -5px;
+    width: 15px;
+}
+.gmail p {
+    margin-left: 23px;
+    margin-top: -21px;
+    font-size: 23px;
+}
+
+/* fotter section */
+#fotter {
+    background-color: white
+}
+
+#final-fotter {
+
+    opacity: 0.5;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    margin: 10px;
+    padding: 2px;
+    height: 83vh;
+}
+
+#fotter-img {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 52px 46px 10px 125px;
+}
+
+.fotter-items1 {
+    display: flex;
+    flex-direction: column;
+    margin: 38px 46px 10px 41px;
+}
+
+.fotter-items1 a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    padding: 3px;
+    color: black
+}
+.fotter-items1 a:hover {
+    color: rgb(12, 12, 195);
+}
+
+.fotter-items2 {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 10px 10px 62px;
+}
+
+ 
+
+.fotter-items2 a {
+    padding: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: black
+}
+.fotter-items2 a:hover {
+    color: rgb(12, 12, 195);
+ }
+
+.fotter-items3 {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 10px 10px 0px;
+}
+
+.fotter-items3 a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3px;
+    font-size: 13px;
+    color: black
+}
+.fotter-items3 a:hover {
+    color: rgb(12, 12, 195);
+ }
+/* .last-lines p {
+    text-align: center;
+    color: aquamarine;
+    margin: -123px 10px 10px 10px;
+} */
